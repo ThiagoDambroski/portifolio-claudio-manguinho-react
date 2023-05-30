@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
+  
+ @font-face {
+    font-family: 'Lato';
+    src: url('../../assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/images/fundo.jpg');
+    background-size: cover; 
+  }
+  .content {
+    text-align: center;
+    max-width: 55vw;
+    margin: 0 auto; 
+    margin-bottom: 20vh;
+    
+  }
+
+  .content h1 {
+    font-family: 'Raleway';
+    font-size: 5vw;
+    margin-bottom: 15px;
+  }
+  
+  .content p {
+    font-family: 'Lato';
+  }
+  .content .animated-button {
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #fff; /* Cor do texto branca */
+    border: 2px solid #fff; /* Borda branca com espessura de 2px */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+  }
+  
+  .content .animated-button:hover {
+    background-color: #fff; /* Cor de fundo branca ao passar o mouse */
+    color: #000; /* Cor do texto preta ao passar o mouse */
+    font-style: none;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .animated-button {
+    position: relative;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

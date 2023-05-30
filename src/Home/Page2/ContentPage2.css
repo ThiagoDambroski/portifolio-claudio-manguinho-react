@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'libre';
+    src: url('../../assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'abril';
+    src: url('../../assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.description {
+    flex: 1;
+    margin-left: 4vw;
+    margin-bottom: 5vw;
+    font-size: large;
+    max-width: 30vw;
+    font-family: 'libre';
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+
+    
+}
+.description h1 {
+   text-align: center;
+   font-family: 'abril';
+
+    
+}
+
+.button-container{
+    align-self: center;
+}
+
+
+
+.description button{
+
+     background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.description button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+  
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+.image img {
+    max-width: 80%;
+    max-height: 90%;
+    border: 1px solid #ccc; /* Optional: Add a border */
+  }
+
+
+
+.carousel-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+ .carousel-button::before {
+    content: '';
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    transform: rotate(45deg);
+    margin-right: 4px;
+  }
+  
+  .carousel-button:hover {
+    background-color: #f0f0f0;
+  }
+  .carousel-button-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .carousel-button-left::before {
+    content: '';
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    transform: rotate(-135deg);
+    margin-left: 4px;
+  }
+  
+  .carousel-button-left:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
