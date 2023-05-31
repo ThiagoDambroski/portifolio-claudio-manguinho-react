@@ -16,11 +16,11 @@
   
   .project-description h1 {
     font-size: 30px;
-    color: #fff;
+   
   }
   
   .project-content p {
-    color: #cec7c7;
+    color: #5a5959;
   }
   .modal {
     position: fixed;
@@ -57,4 +57,35 @@
     max-height: 80vh;
   }
   
+  .type-box {
+    display: flex;
+    justify-content: center;
+  }
   
+  .type{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 90vh;
+    position: relative;
+    transition: transform 0.3s;
+  }
+
+  .type:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+
+  .type h1 {
+    font-family: 'nova';
+    position: absolute; 
+    bottom: 15px; 
+    left: 5px; 
+    width: 100%; 
+    margin: 0; 
+    padding: 10px; 
+    color: #ffffff; 
+  }
+
+  .type img {
+    max-width: 100%;
+  }

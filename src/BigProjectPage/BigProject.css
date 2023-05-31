@@ -1,0 +1,25 @@
+.big-project {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.big-image {
+    max-width: 1200px;
+    border: 2px solid #a19f9f;
+    border-radius: 8px;
+}
+
+.big-project h1{
+    font-family: 'abril';
+    color: #000000;
+}
+
+.big-project p {
+    font-family: 'libre';
+    margin-left: 50px;
+    margin-right: 50px;
+}

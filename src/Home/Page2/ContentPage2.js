@@ -10,7 +10,7 @@ function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
             <h1>{activeProject.title}</h1>
             <p>{activeProject.description}</p>
             <div className='button-container'>
-                <button >VEJA MAIS</button>
+                <button className='button-veja-mais'>VEJA MAIS</button>
             </div>
             
         </div>

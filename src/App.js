@@ -1,29 +1,13 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MenuBar from './MenuBar/MenuBar';
-import Page1 from './Home/Page1/Page1';
-import Page2 from './Home/Page2/Page2';
 import Home from './Home/Home';
-import projeto1Image from './assets/images/projeto1.png'
-import projeto2Image from './assets/images/projeto2.png'
-import ProjectsPage from './ProjectPage/ProjectsPage';
+import ProjectsPage from './ProjectsPage/ProjectsPage';
+import BigProjectPage from './BigProjectPage/BigProjectPage';
+import ProjectTypes from './ProjectsPage/ProjectTypes';
+import { projectData } from './ProjectData';
 
 const App = () => {
-
-  const projectData = [
-    {
-      id: 1,
-      title: 'MASTER PLAN NORTHVILLE',
-      description: 'MASTER PLAN NORTHVILLE em Goiana PE',
-      image: projeto1Image
-    },
-    {
-      id: 2,
-      title: 'FAZENDA MODELO',
-      description: 'FAZENDA MODELO em caruaru',
-      image: projeto2Image
-    }
-  ]
 
   const [activeProject, setActiveProject] = useState(projectData[0])
 
@@ -38,12 +22,27 @@ const App = () => {
     const previousIndex = currentIndex === 0 ? projectData.length - 1 : currentIndex - 1
     setActiveProject(projectData[previousIndex])
   }
+  
+  //Projects page props
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [expandedImage, setExpandedImage] = useState(null);
+
+
+  const handleImageClick = (image) => {
+    setExpandedImage(image);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setExpandedImage(null);
+    setIsModalOpen(false);
+  };
 
   return (
-    <Router>
+    <>
       <MenuBar />
       <Routes>
-        <Route path="/" element={
+        <Route exact path="/" element={
 
           <Home
             key={activeProject.id}
@@ -53,10 +52,32 @@ const App = () => {
           />
         
         } />
-        <Route path="/projetos" element={<ProjectsPage />} />
+        <Route path="/projetos" element={
+          <ProjectsPage
+            projects = {projectData}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+            />
+        } />
+        <Route path= "/bigProjetos" element={
+
+          <BigProjectPage
+            projects={projectData}
+          />
+        }  />
+        <Route path='/projectType' element={
+            <ProjectTypes
+              projects={projectData}
+            />
+
+        }
+
+        />
       </Routes>
       
-    </Router>
+    </>
   );
 };
 

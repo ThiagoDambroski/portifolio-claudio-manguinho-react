@@ -1,6 +1,28 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'libre';
+  src: url('./assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'abril';
+  src: url('./assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'nova';
+  src: url('./assets/fonts/ProximaNova/Proxima\ Nova\ Alt\ Light.otf') format('truetype');
+}
+
 body {
-    background-color: #333;
-    color: #fff; 
+
     margin: 0;
     
    
