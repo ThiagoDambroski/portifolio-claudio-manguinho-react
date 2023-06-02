@@ -15,7 +15,7 @@ function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
             
         </div>
         <div className = 'image'>
-            <img src={activeProject.image}/>
+            <img src={activeProject.image[0]}/>
         </div>
         
         <button className='carousel-button' onClick={handleNextProject}/>

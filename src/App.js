@@ -6,6 +6,7 @@ import ProjectsPage from './ProjectsPage/ProjectsPage';
 import BigProjectPage from './BigProjectPage/BigProjectPage';
 import ProjectTypes from './ProjectsPage/ProjectTypes';
 import { projectData } from './ProjectData';
+import ContactFooter from './ContactFooter/ContactFooter';
 
 const App = () => {
 
@@ -54,7 +55,48 @@ const App = () => {
         } />
         <Route path="/projetos" element={
           <ProjectsPage
+            projectType = 'Todos os Projetos'
             projects = {projectData}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+            />
+        } />
+        <Route path="/projetosResidencial" element={
+          <ProjectsPage
+            projectType = 'Arquitetura Residencial'
+            projects = {projectData.filter((item) => item.topic === 1)}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+            />
+        } />
+        <Route path="/projetosInstitucional" element={
+          <ProjectsPage
+            projectType = 'Institucional'
+            projects = {projectData.filter((item) => item.topic === 2)}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+            />
+        } />
+        <Route path="/projetosConcurso" element={
+          <ProjectsPage
+            projectType = 'Concursos'
+            projects = {projectData.filter((item) => item.topic === 3)}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+            />
+        } />
+        <Route path="/projetosComercial" element={
+          <ProjectsPage
+            projectType = 'Arquitetura Comercial'
+            projects = {projectData.filter((item) => item.topic === 4)}
             isModalOpen={isModalOpen}
             expandedImage={expandedImage}
             handleImageClick={handleImageClick}
@@ -76,6 +118,7 @@ const App = () => {
 
         />
       </Routes>
+      <ContactFooter/>
       
     </>
   );

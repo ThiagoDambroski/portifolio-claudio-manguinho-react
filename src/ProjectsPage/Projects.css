@@ -1,3 +1,10 @@
+.projet-type{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Raleway light';
+}
+
+
 .project-content {
     display: flex;
     position: relative;
@@ -12,16 +19,23 @@
   
   .project-description {
     margin-left: 20px;
+    max-width: 50vw;
   }
   
   .project-description h1 {
     font-size: 30px;
    
   }
+  .project-description-desc {
+    
+    font-family: 'nova';
+    font-size: 20px;
+  }
   
   .project-content p {
     color: #5a5959;
   }
+
   .modal {
     position: fixed;
     z-index: 1;

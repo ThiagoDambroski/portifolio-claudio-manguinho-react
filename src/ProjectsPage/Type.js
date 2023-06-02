@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-function Type({image,description}) {
+function Type({image,description,path}) {
   return (
     <div className='type'>
-        <img src={image}/>
+        <NavLink to={path}><img src={image[0]}/></NavLink>
         <h1>{description}</h1>
     </div>
   )

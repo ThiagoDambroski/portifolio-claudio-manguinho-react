@@ -6,22 +6,26 @@ function ProjectTypes({projects}) {
     <div className='type-box'>
         <div className='row'>
             <Type
-                image = {projects[2].image}
+                image = {projects[27].image}
                 description={"Arquitetura Residencial"}
+                path = '/projetosResidencial'
             />
             <Type
-                image = {projects[2].image}
+                image = {projects[27].image}
                 description={"Arquitetura Comercial"}
+                path = '/projetosComercial'
             />
         </div>
         <div className='row'>
             <Type
-                image = {projects[2].image}
+                image = {projects[27].image}
                 description={"Institucional"}
+                path = '/projetosInstitucional'
             />
            <Type
-                image = {projects[2].image}
+                image = {projects[27].image}
                 description={"Concursos"}
+                path = '/projetosConcurso'
             />
         </div>
         

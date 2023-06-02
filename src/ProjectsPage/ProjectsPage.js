@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import Project from './Project';
 
-function ProjectsPage({projects,isModalOpen,expandedImage,handleImageClick,closeModal}) {
+function ProjectsPage({projectType,projects,isModalOpen,expandedImage,handleImageClick,closeModal}) {
+
 
   return (
     <div>
+      <h1 className='projet-type'>{projectType}</h1>
       {projects.map((item) =>
         <Project
         image={item.image}
         title={item.title}
         location={item.location}
+        description = {item.description}
+        topic
         onClick={() => handleImageClick(item.image)}
       />
       )}

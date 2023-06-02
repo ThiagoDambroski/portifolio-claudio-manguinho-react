@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'Raleway light';
+  src: url('./assets/fonts/Raleway/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Lato';
   src: url('./assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
 }
@@ -16,6 +21,13 @@
   font-family: 'abril';
   src: url('./assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'sans pro light';
+  src: url('./assets/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('truetype');
+}
+
+
 @font-face {
   font-family: 'nova';
   src: url('./assets/fonts/ProximaNova/Proxima\ Nova\ Alt\ Light.otf') format('truetype');
