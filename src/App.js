@@ -107,6 +107,10 @@ const App = () => {
 
           <BigProjectPage
             projects={projectData}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
           />
         }  />
         <Route path='/projectType' element={

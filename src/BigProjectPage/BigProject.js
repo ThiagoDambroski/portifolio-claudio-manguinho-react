@@ -1,15 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './BigProject.css'
 
-function BigProject({image,title,location,description}) {
+function BigProject({image,title,location,description,handleImageClick}) {
+
+  const projetosImages = image;
+  const [activeBigProject, setActiveBigProject] = useState(projetosImages[0]);
+  
+  const handleNextProject = () => {
+    const currentIndex = projetosImages.indexOf(activeBigProject);
+    const nextIndex = (currentIndex + 1) % projetosImages.length; 
+  
+    setActiveBigProject(projetosImages[nextIndex]);
+  };
+  const handlePreviousProject = () => {
+    const currentIndex = projetosImages.indexOf(activeBigProject);
+    const previousIndex = (currentIndex - 1 + projetosImages.length) % projetosImages.length; 
+  
+    setActiveBigProject(projetosImages[previousIndex]);
+  };
+  
   return (
     <div className='big-project'>
-        <img src = {image[0]} className='big-image'></img>
+      <div className= 'page-big'>
+        <button className='carousel-button-left' onClick={handlePreviousProject}/>
+        <img src = {activeBigProject} className='big-image' onClick={() => handleImageClick(activeBigProject)}></img>
+        <button className='carousel-button' onClick={handleNextProject}/>
+      </div>
         <h1>{title}</h1>
-            <p>A elegância dessa residência com traços contemporâneos e volumes em madeira, vidro e porcelanato textura natural.
-            Mais um lar permeado por jardins com máximo aproveitamento de iluminação e ventilação natural como agentes de conforto e bem-estar.
-            Um proejto pensado para trazer momentos ao ar livre de qualidade e descanso.</p>
-
+            <p>{description}</p>
+     
     </div>
   )
 }

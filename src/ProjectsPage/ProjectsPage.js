@@ -4,6 +4,7 @@ import Project from './Project';
 function ProjectsPage({projectType,projects,isModalOpen,expandedImage,handleImageClick,closeModal}) {
 
 
+  
   return (
     <div>
       <h1 className='projet-type'>{projectType}</h1>
@@ -14,7 +15,8 @@ function ProjectsPage({projectType,projects,isModalOpen,expandedImage,handleImag
         location={item.location}
         description = {item.description}
         topic
-        onClick={() => handleImageClick(item.image)}
+        handleImageClick={handleImageClick}
+        
       />
       )}
       

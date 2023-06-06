@@ -4,6 +4,7 @@
     height: 130px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .color-section img{

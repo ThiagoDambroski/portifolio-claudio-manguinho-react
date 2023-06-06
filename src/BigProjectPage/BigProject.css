@@ -8,9 +8,10 @@
 }
 
 .big-image {
-    max-width: 1200px;
+    max-width: 100vh;
     border: 2px solid #a19f9f;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .big-project h1{
@@ -22,4 +23,9 @@
     font-family: 'libre';
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.page-big {
+    display: flex;
+    align-items: center;
 }

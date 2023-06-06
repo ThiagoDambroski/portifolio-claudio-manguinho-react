@@ -7,6 +7,12 @@
     height: 100vh;
     
 }
+.page-about{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+}
 
 .description {
     flex: 1;

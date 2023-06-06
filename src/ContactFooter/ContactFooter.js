@@ -24,6 +24,7 @@ function ContactFooter() {
               icon = {emailIcon}
               title = 'Email de contato'
               information= 'cmplanejamento@gmail.com'
+              type = 'email' 
             />
             <Section
               color='#FD9B00' 
