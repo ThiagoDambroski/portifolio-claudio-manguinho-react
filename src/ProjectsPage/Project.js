@@ -1,10 +1,17 @@
 import React from 'react';
 import './Projects.css';
+import { NavLink } from 'react-router-dom';
 
-function Project({ image, title, location,description, isExpanded, handleImageClick }) {
+function Project({ id,image, title, location,description, isExpanded, handleImageClick }) {
   return (
     <div className={`project-content ${isExpanded ? 'project-image-large' : ''}`} >
-      <img src={image[0]} alt="Project" onClick={() => handleImageClick(image[0])}/>
+      {image.length > 1 ? 
+        (<NavLink to={"/bigProjetosid="+ id} className="custom-link">
+          <img src={image[0]} className='project-image-custom-link' alt="Project"/>
+        </NavLink>)
+        :
+        (<img src={image[0]} alt="Project" className='project-image' onClick={() => handleImageClick(image[0])}/>)
+      }
       <div className="project-description">
         <h1>{title}</h1>
         <span className='project-description-desc'>{description}</span>

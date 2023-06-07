@@ -11,6 +11,8 @@ ul {
   padding: 0;
   display: flex; /* Use flexbox for alignment */
   justify-content: space-between; /* Distribute items horizontally with space between */
+  font-family: 'sans pro light' ;
+  font-weight: bold;
 }
 
 li.left {

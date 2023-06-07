@@ -10,6 +10,7 @@ function ProjectsPage({projectType,projects,isModalOpen,expandedImage,handleImag
       <h1 className='projet-type'>{projectType}</h1>
       {projects.map((item) =>
         <Project
+        id={item.id}
         image={item.image}
         title={item.title}
         location={item.location}

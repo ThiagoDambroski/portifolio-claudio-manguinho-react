@@ -1,5 +1,6 @@
 import React from 'react'
 import './ContentPage2.css'
+import { NavLink } from 'react-router-dom'
 
 
 function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
@@ -10,7 +11,20 @@ function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
             <h1>{activeProject.title}</h1>
             <p>{activeProject.description}</p>
             <div className='button-container'>
+            {activeProject.image.length > 1 ? 
+              (
+                <NavLink to={"/bigProjetosid="+ activeProject.id}>
                 <button className='button-veja-mais'>VEJA MAIS</button>
+                </NavLink>
+              )
+              :
+              (
+                <NavLink to={"/projetos"}>
+                <button className='button-veja-mais'>VEJA MAIS</button>
+                </NavLink>
+              )
+            }
+                
             </div>
             
         </div>

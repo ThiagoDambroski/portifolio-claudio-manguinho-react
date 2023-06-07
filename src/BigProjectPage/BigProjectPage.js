@@ -5,12 +5,13 @@ import BigProject from './BigProject';
 function BigProjectPage({projects,isModalOpen,expandedImage,handleImageClick,closeModal}) {
     
 
+
   return (
     <>
     <BigProject
-        image = {projects[3].image}
-        title =  {projects[3].title}
-        description={projects[3].description}
+        image = {projects.image}
+        title =  {projects.title}
+        description={projects.description}
         handleImageClick = {handleImageClick}
     />
 

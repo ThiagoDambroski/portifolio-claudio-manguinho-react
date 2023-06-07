@@ -31,12 +31,14 @@ function ContactFooter() {
               icon = {telefoneIcon}
               title= 'Ligue para nos'
               information= '(81) 99971-9990 | (81) 99636-4197'
+              type= 'tel'
              />
             <Section 
               color='#BB3036' 
               icon={locationIcon}
               title='Venha nos vistar'
               information='Rua Nao sei aonde numero 23 '
+              type = 'loc'
 
             />
         </div>

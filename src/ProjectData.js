@@ -73,6 +73,7 @@ export const projectData = [
     location: 'OLINDA – PE',
     image: [projeto4Image,projeto5Image,projeto6Image,projeto7Image,projeto8Image,projeto9Image] ,
     topic: 2 //INSTITUCIONAL 
+    ///Big project done
   },
   
   {
@@ -83,6 +84,7 @@ export const projectData = [
     location: 'OLINDA – PE',
     image: [projeto10Image,projeto11Image] ,
     topic: 2 //INSTITUCIONAL
+    ///Big project done
   },
   {
     id: 6,

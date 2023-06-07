@@ -7,8 +7,7 @@ const MenuBar = () => {
     <nav>
       <ul>
         <li className='left'><NavLink to="/">Claudio Manguinho</NavLink></li>
-        <li><NavLink to="/bigProjetos">Projetos</NavLink></li>
-        <li><NavLink to="/projectType">ProjectTypes</NavLink></li>
+        <li><NavLink to="/projectType">Projetos</NavLink></li>
       </ul>
     </nav>
   );

@@ -103,16 +103,37 @@ const App = () => {
             closeModal={closeModal}
             />
         } />
-        <Route path= "/bigProjetos" element={
+        <Route path= "/bigProjetosid=4" element={
 
           <BigProjectPage
-            projects={projectData}
+            projects={projectData[3]}
             isModalOpen={isModalOpen}
             expandedImage={expandedImage}
             handleImageClick={handleImageClick}
             closeModal={closeModal}
           />
         }  />
+        <Route path= "/bigProjetosid=5" element={
+
+          <BigProjectPage
+            projects={projectData[4]}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+          />
+        }  />
+        <Route path= "/bigProjetosid=5" element={
+
+          <BigProjectPage
+            projects={projectData[4]}
+            isModalOpen={isModalOpen}
+            expandedImage={expandedImage}
+            handleImageClick={handleImageClick}
+            closeModal={closeModal}
+          />
+          }  />
+        
         <Route path='/projectType' element={
             <ProjectTypes
               projects={projectData}
