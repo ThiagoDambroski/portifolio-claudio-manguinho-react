@@ -8,13 +8,14 @@ function BigProject({image,title,location,description,handleImageClick}) {
   
   const handleNextProject = () => {
     const currentIndex = projetosImages.indexOf(activeBigProject);
-    const nextIndex = (currentIndex + 1) % projetosImages.length; 
+    const nextIndex = currentIndex === projetosImages.length - 1 ? currentIndex : currentIndex + 1
   
     setActiveBigProject(projetosImages[nextIndex]);
   };
   const handlePreviousProject = () => {
     const currentIndex = projetosImages.indexOf(activeBigProject);
-    const previousIndex = (currentIndex - 1 + projetosImages.length) % projetosImages.length; 
+    const previousIndex = currentIndex === 0 ? currentIndex : currentIndex - 1
+   
   
     setActiveBigProject(projetosImages[previousIndex]);
   };
@@ -27,6 +28,7 @@ function BigProject({image,title,location,description,handleImageClick}) {
         <button className='carousel-button' onClick={handleNextProject}/>
       </div>
         <h1>{title}</h1>
+
             <p>{description}</p>
      
     </div>

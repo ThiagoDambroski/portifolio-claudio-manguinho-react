@@ -14,9 +14,7 @@ function Home({activeProject,handleNextProject,handlePreviousProject}) {
           handlePreviousProject={handlePreviousProject}
           handleNextProject={handleNextProject}
         />
-        <AboutMe
-          
-        />
+        <AboutMe/>
         <DuvidasFrequentes/>
     </>
   )

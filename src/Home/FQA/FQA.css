@@ -32,6 +32,7 @@
   font-size: 16px;
 }
 
+
 .button-fqa:hover {
   background-color: #d400ff;
 }
@@ -56,6 +57,8 @@
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .answer {
@@ -65,4 +68,21 @@
     
   }
 
-
+  .button-answer {
+    background-color: #f5f5f5;
+    color: rgba(14, 90, 177, 0.808);
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .button-answer:hover {
+    background-color: #ddd;
+  }
