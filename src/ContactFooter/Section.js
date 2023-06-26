@@ -44,9 +44,9 @@ function Section({ color, icon, title, information, type }) {
 
   return (
     <div
-      className={`color-section ${isPressed ? 'pressed' : ''}`}
+      className={`color-section ${isPressed ? 'pressed' : ''}`} 
       style={{ backgroundColor: isPressed ? darkenColor(color) : color }}
-      onMouseDown={handleClick} // Usar onMouseDown em vez de onClick
+      onMouseDown={handleClick}
     >
       
       <img src={icon} alt='icon' />

@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     min-height: 100vh;
+    
     flex-direction: column;
     
 }
@@ -85,4 +86,18 @@
   
   .button-answer:hover {
     background-color: #ddd;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .div-fqa {
+      text-align: center;
+    }
+    .button-fqa{
+      max-width: 70vw;
+    }
+    .div-answer{
+      max-width: 85vw;
+    }
+
   }

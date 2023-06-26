@@ -54,6 +54,7 @@ function DuvidasFrequentes() {
         <h3>F A Q</h3>
         <h1>Duvidas frequentes</h1>
       </div>
+   
       
       {questions.map((question) => (
         <Question

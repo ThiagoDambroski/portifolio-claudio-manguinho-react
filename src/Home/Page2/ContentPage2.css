@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
     
 }
 
@@ -27,6 +28,8 @@
 
     
 }
+
+
 
 .button-container{
     align-self: center;
@@ -68,7 +71,7 @@
 
 
 
-.carousel-button {
+.carousel-button-page2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +86,7 @@
     cursor: pointer;
   }
   
- .carousel-button::before {
+ .carousel-button-page2::before {
     content: '';
     border-style: solid;
     border-width: 2px 2px 0 0;
@@ -94,10 +97,10 @@
     margin-right: 4px;
   }
   
-  .carousel-button:hover {
+  .carousel-button-page2:hover {
     background-color: #f0f0f0;
   }
-  .carousel-button-left {
+  .carousel-button-left-page2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,7 +115,7 @@
     cursor: pointer;
   }
   
-  .carousel-button-left::before {
+  .carousel-button-left-page2::before {
     content: '';
     border-style: solid;
     border-width: 2px 2px 0 0;
@@ -123,8 +126,66 @@
     margin-left: 4px;
   }
   
-  .carousel-button-left:hover {
+  .carousel-button-left-page2:hover {
     background-color: #f0f0f0;
   }
   
+  @media only screen and (max-width: 600px) {
+
+    
+    .page {
+      
+      flex-direction: column-reverse;
+      
+    }
+    .description {
+      flex: 1;
+      margin-left: 4vw;
+      margin-bottom: 0px;
+      max-width: 100vw;
+      font-family: 'libre';
+      transition: transform 0.3s ease-in-out;
+      position: relative;
+      
+
+  }
+
+  .button-container{
+    height: 70px;
+  }
+
+  .description h1 {
+      align-self: center;
+      font-size: 25px;
+  }
+  .description p {
+    font-size: 10px;
+  }
+
+   .image {
+    flex: 1;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
   
+  .image img {
+    max-width: 90%;
+    max-height: 100%;
+    border: 1px solid #ccc; /* Optional: Add a border */
+  }
+
+  .carousel-button-page2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+  }
+  .carousel-button-left-page2 {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+  }
+
+
+  }

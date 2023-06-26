@@ -8,11 +8,18 @@ import { useEffect } from 'react';
 
 function AboutMe() {
   const [activeAboutMe, setActiveAboutMe] = useState(0);
+  const [cicle,setCicle] = useState(true)
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveAboutMe(activeAboutMe === 0 ? 1 : 0);
-    }, 6000);
+
+    let interval;
+    if(cicle){
+      interval = setInterval(() => {
+        setActiveAboutMe(activeAboutMe === 0 ? 1 : 0);
+      }, 6000);
+    }
+
+    
 
     return () => {
       clearInterval(interval);
@@ -22,10 +29,12 @@ function AboutMe() {
 
   const handleNext = () => {
     setActiveAboutMe(activeAboutMe === 0 ? 1 : 0);
+    setCicle(false)
   }
 
   const handlePrevious = () => {
     setActiveAboutMe(activeAboutMe === 1 ? 0 : 1);
+    setCicle(false)
   }
 
   return (
