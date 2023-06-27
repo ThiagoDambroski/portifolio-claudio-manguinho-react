@@ -8,7 +8,7 @@
 }
 
 .big-image {
-    max-width: 100vh;
+    max-width: 80vw;
     border: 2px solid #a19f9f;
     border-radius: 8px;
     cursor: pointer;
@@ -29,4 +29,14 @@
 .page-big {
     display: flex;
     align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .big-project h1{
+        font-size: 20px;
+    }
+
+    .big-project p {
+        font-size: 10px;
+    }
+
 }

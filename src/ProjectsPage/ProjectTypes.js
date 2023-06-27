@@ -2,6 +2,7 @@ import React from 'react';
 import Type from './Type';
 import TypeBig from './TypeBig';
 
+
 function ProjectTypes({ projects }) {
   return (
     <>
@@ -16,6 +17,7 @@ function ProjectTypes({ projects }) {
           image={projects[27].image}
           description={"Arquitetura Comercial"}
           path='/projetosComercial'
+          
 
         />
       </div>

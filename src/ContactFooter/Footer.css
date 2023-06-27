@@ -6,7 +6,7 @@
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
-  }
+}
   
 .color-section.pressed {
     background-color: rgba(0, 0, 0, 0.8);
@@ -80,8 +80,32 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .footer-div {
+        width: 90vw;
+    }
+
+    .footer-information{
+        margin-left: 10px;
+    }
+    
     .footer-information-title{
        font-size: 15px;
+    }
+
+    .footer-information-description{
+        font-size: 10px;
+    }
+
+    .color-section {
+        flex-direction: column;
+        max-height: 30vh;
+        
+        
+    }
+
+    .color-section img{
+        width: 30px;
     }
     
     

@@ -3,8 +3,7 @@ import BigProject from './BigProject';
 
 
 function BigProjectPage({projects,isModalOpen,expandedImage,handleImageClick,closeModal}) {
-    
-
+  
 
   return (
     <>

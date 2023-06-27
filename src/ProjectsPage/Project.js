@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Project({ id,image, title, location,description, isExpanded, handleImageClick }) {
   return (
     <div className={`project-content ${isExpanded ? 'project-image-large' : ''}`} >
-      {image.length > 1 ? 
+      {image.length > 1 ?                
         (<NavLink to={"/bigProjetosid="+ id} className="custom-link">
           <img src={image[0]} className='project-image-custom-link' alt="Project"/>
         </NavLink>)

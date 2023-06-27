@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './BigProject.css'
 
+
 function BigProject({image,title,location,description,handleImageClick}) {
 
   const projetosImages = image;
@@ -26,11 +27,10 @@ function BigProject({image,title,location,description,handleImageClick}) {
         <button className='carousel-button-left' onClick={handlePreviousProject}/>
         <img src = {activeBigProject} className='big-image' onClick={() => handleImageClick(activeBigProject)}></img>
         <button className='carousel-button' onClick={handleNextProject}/>
-      </div>
-        <h1>{title}</h1>
 
-            <p>{description}</p>
-     
+      </div>
+      <h1>{title}</h1>
+      <p>{description}</p>
     </div>
   )
 }
