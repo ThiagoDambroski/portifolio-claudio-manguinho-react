@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
   return (
     <div className='page'>
-        <button className='carousel-button-left-page2' onClick={handlePreviousProject}/>
+      <button className='carousel-button-left-page2' onClick={handlePreviousProject}/>
         <div className = 'description'>
             <h1>{activeProject.title}</h1>
             <p>{activeProject.description}</p>
@@ -31,8 +31,9 @@ function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
         <div className = 'image'>
             <img src={activeProject.image[0]}/>
         </div>
+
         
-        <button className='carousel-button-page2' onClick={handleNextProject}/>
+      <button className='carousel-button-page2' onClick={handleNextProject}/>
         
     </div>
   )

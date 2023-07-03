@@ -177,13 +177,14 @@
 
   .carousel-button-page2 {
     position: absolute;
-    top: 20px;
+    top: 22px;
     right: 20px;
     
   }
   .carousel-button-left-page2 {
       position: absolute;
-      top: 20px;
+      z-index: 1;
+      top: 22px;
       left: 20px;
   }
 
