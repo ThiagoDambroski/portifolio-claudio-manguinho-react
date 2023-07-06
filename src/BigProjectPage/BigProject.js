@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './BigProject.css'
-
+import { useNavigate } from 'react-router-dom';
 
 function BigProject({image,title,location,description,handleImageClick}) {
 
@@ -20,9 +20,18 @@ function BigProject({image,title,location,description,handleImageClick}) {
   
     setActiveBigProject(projetosImages[previousIndex]);
   };
+
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    navigate(-1); 
+  };
   
   return (
-    <div className='big-project'>
+    <>
+      <button onClick={goBack} className="back-button"/>
+      <div className='big-project'>
+      
       <div className= 'page-big'>
         <button className='carousel-button-left' onClick={handlePreviousProject}/>
         <img src = {activeBigProject} className='big-image' onClick={() => handleImageClick(activeBigProject)}></img>
@@ -32,6 +41,8 @@ function BigProject({image,title,location,description,handleImageClick}) {
       <h1>{title}</h1>
       <p>{description}</p>
     </div>
+    </>
+    
   )
 }
 

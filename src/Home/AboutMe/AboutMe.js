@@ -2,6 +2,7 @@
 import React from 'react';
 import Me from './Me';
 import placeHolder from '../../assets/images/placeholderMan.png';
+import placeHolder2 from '../../assets/images/placeholderMan2.jpg';
 import './AboutMe.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -16,7 +17,7 @@ function AboutMe() {
     if(cicle){
       interval = setInterval(() => {
         setActiveAboutMe(activeAboutMe === 0 ? 1 : 0);
-      }, 6000);
+      }, 4000);
     }
 
     
@@ -50,7 +51,7 @@ function AboutMe() {
         ) : (
           <Me
             name='Claudio Manguinho'
-            photo={placeHolder}
+            photo={placeHolder2}
             description="Um arquiteto apaixonado por transformar sonhos em realidade. Com uma visão criativa e inovadora, trago um toque único aos projetos arquitetônicos, buscando sempre surpreender e encantar meus clientes. Com anos de experiência na área, desenvolvi uma abordagem holística que combina funcionalidade, estética e sustentabilidade. Acredito que a arquitetura vai além de simplesmente criar espaços, é sobre criar experiências que inspirem e melhorem a qualidade de vida das pessoas. Meu portfólio abrange uma ampla gama de projetos, desde residenciais e comerciais até espaços públicos e de lazer. Cada projeto é cuidadosamente planejado e executado, levando em consideração as necessidades e desejos únicos de cada cliente. Minha paixão pela arquitetura reflete-se em cada detalhe, desde a seleção de materiais até a escolha das cores e texturas. Além disso, estou sempre atualizado com as últimas tendências e tecnologias do setor, garantindo que meus projetos estejam alinhados com as demandas contemporâneas. Busco constantemente aprimorar minhas habilidades e conhecimentos para oferecer soluções arquitetônicas de vanguarda."
           />
         )}

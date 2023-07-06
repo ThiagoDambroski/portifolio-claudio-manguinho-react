@@ -37,7 +37,7 @@ function ContactFooter() {
               color='#BB3036' 
               icon={locationIcon}
               title='Venha nos vistar'
-              information='Rua Nao sei aonde numero 23 '
+              information='Place holder '
               type = 'loc'
 
             />
