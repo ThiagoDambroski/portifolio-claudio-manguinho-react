@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 
 function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
+  
   return (
     <div className='page'>
       <button className='carousel-button-left-page2' onClick={handlePreviousProject}/>
