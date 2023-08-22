@@ -1,33 +1,33 @@
 nav {
-  background-color: #fff; /* Set the background color of the menu bar to white */
-  padding: 10px 20px; /* Add some padding horizontally and vertically */
-  border-bottom: 1px solid #ddd; /* Add a bottom border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  background-color: #fff; 
+  padding: 10px 20px; 
+  border-bottom: 1px solid #ddd; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 ul {
-  list-style-type: none; /* Remove the default bullet points */
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Use flexbox for alignment */
-  justify-content: space-between; /* Distribute items horizontally with space between */
+  display: flex; 
+  justify-content: space-between; 
   font-family: 'sans pro light' ;
   font-weight: bold;
 }
 
 li.left {
-  margin-right: auto; /* Push the "Name" menu item to the far left */
+  margin-right: auto; 
 }
 
 li {
-  margin-left: 10px; /* Add some spacing between the menu items */
+  margin-left: 10px; 
 }
 
 a {
-  color: #1a1a1a; /* Set the text color of the menu items to match the background color */
-  text-decoration: none; /* Remove the default underline */
+  color: #1a1a1a; 
+  text-decoration: none; 
 }
 
 a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline; 
 }

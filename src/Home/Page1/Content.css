@@ -26,20 +26,20 @@
     font-family: 'Lato';
   }
   .content .animated-button {
-    background-color: transparent; /* Cor de fundo transparente */
-    color: #fff; /* Cor do texto branca */
-    border: 2px solid #fff; /* Borda branca com espessura de 2px */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    font-weight: bold; /* Negrito */
-    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
-    cursor: pointer; /* Altera o cursor ao passar o mouse */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+    background-color: transparent; 
+    color: #fff; 
+    border: 2px solid #fff; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
   }
   
   .content .animated-button:hover {
-    background-color: #fff; /* Cor de fundo branca ao passar o mouse */
-    color: #000; /* Cor do texto preta ao passar o mouse */
+    background-color: #fff; 
+    color: #000; 
     font-style: none;
   }
   .button-container {

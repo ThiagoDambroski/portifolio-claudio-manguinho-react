@@ -2,7 +2,7 @@ import React from 'react'
 import Page1 from './Page1/Page1'
 import Page2 from './Page2/Page2'
 import AboutMe from './AboutMe/AboutMe'
-import DuvidasFrequentes from './FQA/DuvidasFrequentes'
+import FQA from './FQA/FQA'
 
 function Home({activeProject,handleNextProject,handlePreviousProject}) {
   return (
@@ -15,7 +15,7 @@ function Home({activeProject,handleNextProject,handlePreviousProject}) {
           handleNextProject={handleNextProject}
         />
         <AboutMe/>
-        <DuvidasFrequentes/>
+        <FQA/>
     </>
   )
 }

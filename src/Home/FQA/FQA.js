@@ -3,7 +3,7 @@ import './FQA.css'
 import Question from './Question';
 
 
-function DuvidasFrequentes() {
+function FQA() {
   const [questions, setQuestions] = useState([
     {
         id: 1,
@@ -67,4 +67,4 @@ function DuvidasFrequentes() {
   );
 }
 
-export default DuvidasFrequentes;
+export default FQA;
