@@ -1,0 +1,185 @@
+.about-us-page {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    
+    flex-direction: row;
+
+    background-color: rgb(77, 77, 77);
+}
+
+
+
+
+.about-us-arrow{
+    width: 10vh;
+    height: 10vh;
+    position: absolute;
+    
+}
+
+.about-us-arrow:hover{
+    cursor: pointer;
+}
+
+.arrow-left{
+    right: 0px;
+}
+
+
+
+.carousel-container {
+    display: flex;
+   
+    transition: transform 0.5s ease; /* Add transition property */
+  }
+  
+  .carousel-item {
+    display: flex;
+    width: 50vw;
+    flex: 0 0 100%;
+   
+  }
+  
+
+.about-us-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    background-color: rgb(77, 77, 77);
+}
+
+.about-us-picture img{
+    width: 25vw;
+    height: 25vw;
+    border: 1px solid rgb(121, 121, 121);
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.about-us-picture h1{
+    font-family: 'montserrat';
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    
+}
+/*
+Light Gray: RGB(230, 230, 230)
+White: RGB(255, 255, 255)
+Soft Pink: RGB(255, 192, 192)
+Muted Blue: RGB(148, 180, 204)
+Sage Green: RGB(168, 204, 148)
+Mauve or Lavender: RGB(204, 148, 204) or RGB(204, 168, 204)
+Deep Navy: RGB(40, 40, 90)
+Charcoal: RGB(80, 80, 80)
+Gold: RGB(255, 215, 0)
+Brass: RGB(181, 166, 66)
+Slate Blue: RGB(112, 128, 144)
+*/
+.about-us-picture h3{
+    margin-top: 0px;
+    font-family: 'hind';
+    color: rgb(181, 166, 66);
+    
+}
+
+.about-us-content{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 55vw;
+    background-color: white;
+}
+
+.about-us-content h1{
+    font-family: 'montserrat';
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+
+.about-us-content p {
+    font-family: 'assistant';
+    font-size: 25px;
+    
+}
+
+.about-us-socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    background-color: rgb(77, 77, 77);
+}
+
+.about-us-socialMedia-img{
+    width: 20%;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  
+}
+
+
+
+.about-us-socialMedia-img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 800px) {
+    .about-us-page {
+        height: 400px;
+    }
+    .about-us-arrow{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        
+    }
+    .about-us-content{
+        width: 215px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about-us-content h1{
+        font-size: 17px;
+    }
+    .about-us-content p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .about-us-picture{
+        padding-top: 50px;
+        justify-content: flex-start;
+    }
+
+    .about-us-picture img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-us-picture h1 {
+        font-size: 15px;
+    }
+
+    .about-us-picture h3{
+        font-size: 11px;
+    }
+    .about-us-socialMedia {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .about-us-socialMedia-img{
+        width: 40%;
+        margin-bottom: 5px;
+    }
+}

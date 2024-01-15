@@ -10,6 +10,9 @@ function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
       <button className='carousel-button-left-page2' onClick={handlePreviousProject}/>
         <div className = 'description'>
             <h1>{activeProject.title}</h1>
+            <div className = 'image'>
+              <img src={activeProject.image[0]}/>
+            </div>
             <p>{activeProject.description}</p>
             <div className='button-container'>
             {activeProject.image.length > 1 ? 
@@ -29,9 +32,7 @@ function ContentPage2({activeProject,handlePreviousProject,handleNextProject}) {
             </div>
             
         </div>
-        <div className = 'image'>
-            <img src={activeProject.image[0]}/>
-        </div>
+        
 
         
       <button className='carousel-button-page2' onClick={handleNextProject}/>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Page1 from './Page1/Page1'
 import Page2 from './Page2/Page2'
-import AboutMe from './AboutMe/AboutMe'
+import AboutUs from './AboutMe/AboutUs'
 import FQA from './FQA/FQA'
 
 function Home({activeProject,handleNextProject,handlePreviousProject}) {
@@ -14,7 +14,7 @@ function Home({activeProject,handleNextProject,handlePreviousProject}) {
           handlePreviousProject={handlePreviousProject}
           handleNextProject={handleNextProject}
         />
-        <AboutMe/>
+        <AboutUs/>
         <FQA/>
     </>
   )
