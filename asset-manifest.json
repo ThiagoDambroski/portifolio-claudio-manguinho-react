@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.63293483.css",
-    "main.js": "/portifolio-claudio-manguinho-react/static/js/main.3f2dfe17.js",
+    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.e90068ab.css",
+    "main.js": "/portifolio-claudio-manguinho-react/static/js/main.242b1e7d.js",
+    "static/media/placeHolderWoman.jpg": "/portifolio-claudio-manguinho-react/static/media/placeHolderWoman.be66fbbccbd7a2096866.jpg",
     "static/media/projeto30.png": "/portifolio-claudio-manguinho-react/static/media/projeto30.f37bfc9cade719d93416.png",
     "static/media/projeto32.png": "/portifolio-claudio-manguinho-react/static/media/projeto32.f7a68d9cd5f98fb05740.png",
     "static/media/projeto26.png": "/portifolio-claudio-manguinho-react/static/media/projeto26.2bef441d05cfe19ce76f.png",
@@ -44,18 +45,21 @@
     "static/media/fundo.jpg": "/portifolio-claudio-manguinho-react/static/media/fundo.9412c0a035b47c71b303.jpg",
     "static/media/Lato-Bold.ttf": "/portifolio-claudio-manguinho-react/static/media/Lato-Bold.76eff6487a1e1011628f.ttf",
     "static/media/AbrilFatface-Regular.ttf": "/portifolio-claudio-manguinho-react/static/media/AbrilFatface-Regular.6aca51d24c48c450ea06.ttf",
-    "static/media/placeholderMan2.jpg": "/portifolio-claudio-manguinho-react/static/media/placeholderMan2.518b0f393f3ebf95633c.jpg",
+    "static/media/placeholderMan.jpg": "/portifolio-claudio-manguinho-react/static/media/placeholderMan.518b0f393f3ebf95633c.jpg",
+    "static/media/instagram.png": "/portifolio-claudio-manguinho-react/static/media/instagram.75ed758281b898aa9e18.png",
     "static/media/Proxima Nova Alt Light.otf": "/portifolio-claudio-manguinho-react/static/media/Proxima Nova Alt Light.ad48cb5acdd38dc03790.otf",
-    "static/media/placeholderMan.png": "/portifolio-claudio-manguinho-react/static/media/placeholderMan.fc08a753c938100d91c5.png",
     "static/media/maps.png": "/portifolio-claudio-manguinho-react/static/media/maps.df6777aa01de190c2397.png",
+    "static/media/instagramBlack.png": "/portifolio-claudio-manguinho-react/static/media/instagramBlack.b4ff9be06a8f84fada1b.png",
+    "static/media/whatsappBlack.png": "/portifolio-claudio-manguinho-react/static/media/whatsappBlack.8f84e8ce77ed527f4465.png",
     "static/media/mail.png": "/portifolio-claudio-manguinho-react/static/media/mail.8afbd69c55000424b599.png",
     "static/media/phone-call.png": "/portifolio-claudio-manguinho-react/static/media/phone-call.d35848942c955a6232b3.png",
+    "static/media/linkedin.png": "/portifolio-claudio-manguinho-react/static/media/linkedin.380dc8cd6ccf852b7413.png",
     "index.html": "/portifolio-claudio-manguinho-react/index.html",
-    "main.63293483.css.map": "/portifolio-claudio-manguinho-react/static/css/main.63293483.css.map",
-    "main.3f2dfe17.js.map": "/portifolio-claudio-manguinho-react/static/js/main.3f2dfe17.js.map"
+    "main.e90068ab.css.map": "/portifolio-claudio-manguinho-react/static/css/main.e90068ab.css.map",
+    "main.242b1e7d.js.map": "/portifolio-claudio-manguinho-react/static/js/main.242b1e7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.63293483.css",
-    "static/js/main.3f2dfe17.js"
+    "static/css/main.e90068ab.css",
+    "static/js/main.242b1e7d.js"
   ]
 }
