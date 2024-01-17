@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.e90068ab.css",
-    "main.js": "/portifolio-claudio-manguinho-react/static/js/main.242b1e7d.js",
+    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.043d32d4.css",
+    "main.js": "/portifolio-claudio-manguinho-react/static/js/main.6417ebe7.js",
     "static/media/placeHolderWoman.jpg": "/portifolio-claudio-manguinho-react/static/media/placeHolderWoman.be66fbbccbd7a2096866.jpg",
     "static/media/projeto30.png": "/portifolio-claudio-manguinho-react/static/media/projeto30.f37bfc9cade719d93416.png",
     "static/media/projeto32.png": "/portifolio-claudio-manguinho-react/static/media/projeto32.f7a68d9cd5f98fb05740.png",
@@ -35,6 +35,7 @@
     "static/media/projeto2.png": "/portifolio-claudio-manguinho-react/static/media/projeto2.94e7b2438b7f6b61c881.png",
     "static/media/projeto8.png": "/portifolio-claudio-manguinho-react/static/media/projeto8.03fc0fe7fc50a5203ba2.png",
     "static/media/projeto3.png": "/portifolio-claudio-manguinho-react/static/media/projeto3.80bf3ee74c21f1eadb35.png",
+    "static/media/background.png": "/portifolio-claudio-manguinho-react/static/media/background.477f27f246087821cfa8.png",
     "static/media/projeto12.png": "/portifolio-claudio-manguinho-react/static/media/projeto12.0b264439514893cac05b.png",
     "static/media/projeto20.png": "/portifolio-claudio-manguinho-react/static/media/projeto20.97105fce948018b87cbc.png",
     "static/media/Montserrat-ExtraLight.ttf": "/portifolio-claudio-manguinho-react/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
@@ -51,15 +52,16 @@
     "static/media/maps.png": "/portifolio-claudio-manguinho-react/static/media/maps.df6777aa01de190c2397.png",
     "static/media/instagramBlack.png": "/portifolio-claudio-manguinho-react/static/media/instagramBlack.b4ff9be06a8f84fada1b.png",
     "static/media/whatsappBlack.png": "/portifolio-claudio-manguinho-react/static/media/whatsappBlack.8f84e8ce77ed527f4465.png",
+    "static/media/logo-placeholder.png": "/portifolio-claudio-manguinho-react/static/media/logo-placeholder.564b5926ba1f718f7a82.png",
     "static/media/mail.png": "/portifolio-claudio-manguinho-react/static/media/mail.8afbd69c55000424b599.png",
     "static/media/phone-call.png": "/portifolio-claudio-manguinho-react/static/media/phone-call.d35848942c955a6232b3.png",
     "static/media/linkedin.png": "/portifolio-claudio-manguinho-react/static/media/linkedin.380dc8cd6ccf852b7413.png",
     "index.html": "/portifolio-claudio-manguinho-react/index.html",
-    "main.e90068ab.css.map": "/portifolio-claudio-manguinho-react/static/css/main.e90068ab.css.map",
-    "main.242b1e7d.js.map": "/portifolio-claudio-manguinho-react/static/js/main.242b1e7d.js.map"
+    "main.043d32d4.css.map": "/portifolio-claudio-manguinho-react/static/css/main.043d32d4.css.map",
+    "main.6417ebe7.js.map": "/portifolio-claudio-manguinho-react/static/js/main.6417ebe7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e90068ab.css",
-    "static/js/main.242b1e7d.js"
+    "static/css/main.043d32d4.css",
+    "static/js/main.6417ebe7.js"
   ]
 }
