@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.043d32d4.css",
+    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.75ae8f38.css",
     "main.js": "/portifolio-claudio-manguinho-react/static/js/main.6417ebe7.js",
     "static/media/placeHolderWoman.jpg": "/portifolio-claudio-manguinho-react/static/media/placeHolderWoman.be66fbbccbd7a2096866.jpg",
     "static/media/projeto30.png": "/portifolio-claudio-manguinho-react/static/media/projeto30.f37bfc9cade719d93416.png",
@@ -57,11 +57,11 @@
     "static/media/phone-call.png": "/portifolio-claudio-manguinho-react/static/media/phone-call.d35848942c955a6232b3.png",
     "static/media/linkedin.png": "/portifolio-claudio-manguinho-react/static/media/linkedin.380dc8cd6ccf852b7413.png",
     "index.html": "/portifolio-claudio-manguinho-react/index.html",
-    "main.043d32d4.css.map": "/portifolio-claudio-manguinho-react/static/css/main.043d32d4.css.map",
+    "main.75ae8f38.css.map": "/portifolio-claudio-manguinho-react/static/css/main.75ae8f38.css.map",
     "main.6417ebe7.js.map": "/portifolio-claudio-manguinho-react/static/js/main.6417ebe7.js.map"
   },
   "entrypoints": [
-    "static/css/main.043d32d4.css",
+    "static/css/main.75ae8f38.css",
     "static/js/main.6417ebe7.js"
   ]
 }
