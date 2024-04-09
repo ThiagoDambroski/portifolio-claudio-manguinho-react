@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.618f2691.css",
-    "main.js": "/portifolio-claudio-manguinho-react/static/js/main.d40fa2be.js",
+    "main.css": "/portifolio-claudio-manguinho-react/static/css/main.46b77182.css",
+    "main.js": "/portifolio-claudio-manguinho-react/static/js/main.cf21d1ae.js",
     "static/media/placeHolderWoman.jpg": "/portifolio-claudio-manguinho-react/static/media/placeHolderWoman.be66fbbccbd7a2096866.jpg",
     "static/media/projeto30.png": "/portifolio-claudio-manguinho-react/static/media/projeto30.f37bfc9cade719d93416.png",
     "static/media/projeto32.png": "/portifolio-claudio-manguinho-react/static/media/projeto32.f7a68d9cd5f98fb05740.png",
@@ -43,7 +43,6 @@
     "static/media/LibreBaskerville-Bold.ttf": "/portifolio-claudio-manguinho-react/static/media/LibreBaskerville-Bold.ecfbab5016554edd8cd6.ttf",
     "static/media/Raleway-Light.ttf": "/portifolio-claudio-manguinho-react/static/media/Raleway-Light.f86090a73e4996cf067e.ttf",
     "static/media/Raleway-Bold.ttf": "/portifolio-claudio-manguinho-react/static/media/Raleway-Bold.b430856ea5fc5c516851.ttf",
-    "static/media/fundo.jpg": "/portifolio-claudio-manguinho-react/static/media/fundo.9412c0a035b47c71b303.jpg",
     "static/media/Lato-Bold.ttf": "/portifolio-claudio-manguinho-react/static/media/Lato-Bold.76eff6487a1e1011628f.ttf",
     "static/media/AbrilFatface-Regular.ttf": "/portifolio-claudio-manguinho-react/static/media/AbrilFatface-Regular.6aca51d24c48c450ea06.ttf",
     "static/media/placeholderMan.jpg": "/portifolio-claudio-manguinho-react/static/media/placeholderMan.518b0f393f3ebf95633c.jpg",
@@ -57,11 +56,11 @@
     "static/media/phone-call.png": "/portifolio-claudio-manguinho-react/static/media/phone-call.d35848942c955a6232b3.png",
     "static/media/linkedin.png": "/portifolio-claudio-manguinho-react/static/media/linkedin.380dc8cd6ccf852b7413.png",
     "index.html": "/portifolio-claudio-manguinho-react/index.html",
-    "main.618f2691.css.map": "/portifolio-claudio-manguinho-react/static/css/main.618f2691.css.map",
-    "main.d40fa2be.js.map": "/portifolio-claudio-manguinho-react/static/js/main.d40fa2be.js.map"
+    "main.46b77182.css.map": "/portifolio-claudio-manguinho-react/static/css/main.46b77182.css.map",
+    "main.cf21d1ae.js.map": "/portifolio-claudio-manguinho-react/static/js/main.cf21d1ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.618f2691.css",
-    "static/js/main.d40fa2be.js"
+    "static/css/main.46b77182.css",
+    "static/js/main.cf21d1ae.js"
   ]
 }
