@@ -10,11 +10,10 @@ const Content = () =>  {
             <p>Sou um arquiteto apaixonado por criar espaços inspiradores e funcionais, combinando estética, 
             funcionalidade e personalidade para transformar seus sonhos em realidade. Explore meu portfólio e 
             deixe-me ajudar a transformar suas ideias em espaços incríveis e harmoniosos.</p>
+            
             <div className='button-container'>
               <NavLink className='animated-button' to="/projectType">Projetos</NavLink>
             </div>
-            
-
         </div>
     </div>
   )

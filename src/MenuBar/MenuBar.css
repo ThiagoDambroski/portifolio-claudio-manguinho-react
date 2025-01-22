@@ -1,33 +1,33 @@
 nav {
-  background-color: #fff; 
-  padding: 10px 20px; 
-  border-bottom: 1px solid #ddd; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  padding: 15px 5px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  z-index: 10000;
 }
-
-ul {
+nav ul {
+  width: 99%;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; 
-  justify-content: space-between; 
-  font-family: 'sans pro light' ;
-  font-weight: bold;
+  display: flex;
+  font-family: "sans pro light";
+  font-weight: 400;
+  font-size: 1.2rem;
 }
-
-li.left {
-  margin-right: auto; 
+nav li.left {
+  margin-right: auto;
 }
-
-li {
-  margin-left: 10px; 
+nav li {
+  margin-left: 10px;
 }
-
-a {
-  color: #1a1a1a; 
-  text-decoration: none; 
+nav a {
+  color: #1a1a1a;
+  text-decoration: none;
 }
-
-a:hover {
-  text-decoration: underline; 
-}
+nav a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=MenuBar.css.map */

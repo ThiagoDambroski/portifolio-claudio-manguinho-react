@@ -1,0 +1,89 @@
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/images/fundo.jpg');
+    background-size: cover; 
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    max-width: 60%;
+    
+    margin: 0 auto; 
+    font-size: 1.2rem;
+    
+  }
+
+  .content h1 {
+    font-family: 'Raleway';
+    font-size: 5rem;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .content p {
+    font-family: 'Lato';
+  }
+  .content .animated-button {
+    background-color: transparent; 
+    color: #ffffff; 
+    border: 2px solid #fff; 
+    border-radius: 10px;
+    padding: 13px 45px;
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  
+  .content .animated-button:hover {
+    background-color: #fff; 
+    border: 2px solid black; 
+    color: #000; 
+    font-style: none;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .animated-button {
+    position: relative;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+  }
+  a{
+    text-decoration: none;
+}
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    
+    .content {
+      max-width: 90vw;
+      margin-bottom: 55vh;
+    }
+  }
+  
